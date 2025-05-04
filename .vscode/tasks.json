@@ -1,0 +1,61 @@
+{
+    "version": "2.0.0",
+	"tasks": [
+        {
+            "type": "flutter",
+            "group": "build",
+            "label": "Build Flutter App -- Android apk",
+            "command": "flutter",
+            "args": ["build", "apk", "--release"],
+            "options": {
+                "cwd": "app"
+            },
+            "problemMatcher": [],
+        },
+        {
+            "type": "flutter",
+            "group": "build",
+            "label": "Build Flutter App -- iOS app",
+            "command": "flutter",
+            "args": ["build", "ios", "--release"],
+            "options": {
+                "cwd": "app"
+            },
+            "problemMatcher": [],
+        },
+        {
+            "type": "flutter",
+            "group": "build",
+            "label": "Build Flutter App -- Web source",
+            "command": "flutter",
+            "args": ["build", "web", "--release"],
+            "options": {
+                "cwd": "app"
+            },
+            "problemMatcher": [],
+        },
+        {
+            "type": "flutter",
+            "group": "build",
+            "label": "Build Flutter App -- macOS desktop",
+            "command": "flutter",
+            "args": ["build", "macos", "--release"],
+            "options": {
+                "cwd": "app"
+            },
+            "problemMatcher": [],
+        },
+        {
+            "label": "Build Flutter App ALL",
+            "group": "build",
+            "dependsOn": [
+                "Flutter: Build -- Android APK",
+                "Flutter: Build -- iOS App",
+                "Flutter: Build -- Web App",
+                "Flutter: Build -- macOS Desktop App",
+            ],
+            "dependsOrder": "sequence",
+            "problemMatcher": [],
+        },
+    ],
+}
