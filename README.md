@@ -4,6 +4,7 @@ A simple simulator that showcases the strange behaviors of warp drive wakes.
 This project aims to give people some kind of an intuition for what it would look/feel
 like to track spacecraft utilizing FTL devices akin to the [Alcubierre warp drive](https://en.wikipedia.org/wiki/Alcubierre_drive).
 
+Download a release [here](https://github.com/skylon07/warp_wake_simulator/releases).
 While this code is licensed under the MIT license, I'd appreciate being
 credited if you use it in your own work. I'd also love to hear whatever you're
 working on! Feel free to reach me at skylon07.dsc@gmail.com.

@@ -7,9 +7,6 @@
             "label": "Build Flutter App -- Android apk",
             "command": "flutter",
             "args": ["build", "apk", "--release"],
-            "options": {
-                "cwd": "app"
-            },
             "problemMatcher": [],
         },
         {
@@ -18,9 +15,6 @@
             "label": "Build Flutter App -- iOS app",
             "command": "flutter",
             "args": ["build", "ios", "--release"],
-            "options": {
-                "cwd": "app"
-            },
             "problemMatcher": [],
         },
         {
@@ -29,9 +23,6 @@
             "label": "Build Flutter App -- Web source",
             "command": "flutter",
             "args": ["build", "web", "--release"],
-            "options": {
-                "cwd": "app"
-            },
             "problemMatcher": [],
         },
         {
@@ -40,9 +31,6 @@
             "label": "Build Flutter App -- macOS desktop",
             "command": "flutter",
             "args": ["build", "macos", "--release"],
-            "options": {
-                "cwd": "app"
-            },
             "problemMatcher": [],
         },
         {
